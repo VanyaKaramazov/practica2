@@ -9,10 +9,9 @@ public class Main {
 		
 		Robot robot = new Robot();
 		
-        System.out.println("Bienvenido al restaurante McHamburgesas...");
-        System.out.println("Nuestro McRobot lo estará atendiendo");
-        System.out.println("Actualmenete " + robot.getEstadoActual());
-        System.out.println("Por favor elige la opción que deseas ejecutar: ");
+        System.out.println("Bienvenido al restaurante McBurguesas");
+        System.out.println("Estado: " + robot.getEstadoActual());
+        System.out.println("Elija una opcion: ");
         Scanner sc = new Scanner(System.in);
         int opcion;
 
@@ -32,7 +31,7 @@ public class Main {
                     opcion = Integer.parseInt(opcionUsser);
                     break;
                 } catch (NumberFormatException nfe) { 
-                    System.out.println("Por favor elige una opción VALIDA \n" +
+                    System.out.println("Por favor elige una opción valida \n" +
                     		"1 .- **ACTIVADO** \n" +
                             "2 .- **CAMINANDO** \n" +
                             "3 .- **LEYENDO MENU* \n" +
@@ -73,7 +72,7 @@ public class Main {
                     break;
                   
                 default:
-                    System.out.println("Por favor elige la opción que deseas ejecutar ");
+                    System.out.println("Elija una opcion: ");
                     break;
             }
 
