@@ -31,7 +31,7 @@ public class Main {
                     opcion = Integer.parseInt(opcionUsser);
                     break;
                 } catch (NumberFormatException nfe) { 
-                    System.out.println("Por favor elige una opción valida \n" +
+                    System.out.println("Elige una opción valida \n" +
                     		"1 .- **ACTIVADO** \n" +
                             "2 .- **CAMINANDO** \n" +
                             "3 .- **LEYENDO MENU* \n" +
